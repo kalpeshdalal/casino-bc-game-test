@@ -5,7 +5,7 @@ const HomePageBanner = () => {
 	return (
 		<div className="banner-top-gradient section-padding pt-14 pb-5">
 			<div className="">
-				<div className="w-full flex gap-5 justify-between home-banner-gradient rounded-lg py-5 px-2">
+				<div className="w-full flex gap-5 justify-between home-banner-gradient bg-whiteClr-10 rounded-lg py-5 px-2">
 					<div className=' flex flex-col justify-between gap-10'>
 						<div>
 							<div className='font-bold text-18'
