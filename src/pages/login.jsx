@@ -12,7 +12,7 @@ const Login = () => {
 
       <div className=' space-y-3 mb-4'>
         <InputComp type='text' placeholder="Email / Phone Number" value={email} onChange={(e)=>setEMail(e.target.value)} className=''/>
-        <InputComp type='password' placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)} />
+        <InputComp type='password' placeholder="Password" value={password} onChange={(e)=>setPassword(e.target.value)} />
       </div>
       <div>
         <Link to="/forgot-password" className='text-xs font-extrabold text-iconClr  text-right'>Forgot your password?</Link>
