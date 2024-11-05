@@ -1,19 +1,25 @@
 :root {
-    --primaryClr: rgba(0, 231, 1, 1);
-    --secondaryClr: rgba(76, 175, 80, 1);
-    --primaryFontClr: rgba(51, 51, 51, 1);
-    --whiteFontClr: rgba(224, 224, 224, 1);
-    --secondaryFontClr: rgba(102, 102, 102, 1);
-    --mainBgClr: rgba(26, 26, 26, 1);
-    --whiteBgClr: rgb(231, 231, 231);
-    --dangerClr: rgba(202, 20, 20, 1);
-    --headingClr : rgba(0, 76, 153, 1);
+    --primaryClr: rgba(36, 238, 137, 1);
+    --secondaryClr: rgba(255, 152, 32, 1);
+    --bgPrimaryClr: rgba(30, 33, 33, 1);
+    --bgSecondaryClr: rgba(50, 55, 56, 1);
+    --bgGray: rgba(78, 79, 90, 1);
+    --iconClr: rgba(179, 190, 193, 1);
+    --borderStrokeClr: rgba(58, 65, 66, 1);
+    --redClr : rgba(252, 60, 60, 1);
+    --greenClr: rgba(14, 176, 94, 1);
+    --whiteClr: rgba(255, 255, 255, 1);
 }
 
 
 
 body {
-    color: rgba(0, 0, 0, 1);
+    color: var( --whiteClr);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    background-color: var(--bgPrimaryClr);
 }
 
 h1,
@@ -23,7 +29,14 @@ h4,
 h5,
 h6,
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 
+.primary-bg-gradient {
+    background: linear-gradient(70.53deg, #41434D 17.42%, #41434D 38.91%, rgba(65, 67, 77, 0) 66.85%);
+}
+
+.primary-button-gradient{
+    background: linear-gradient(90deg, #24EE89 0%, #9FE871 100%);
+}
