@@ -1,0 +1,5 @@
+@use 'sass:math';
+
+@function num($input) {
+    @return math.div($input, $input * 0 + 1);
+}

@@ -1,0 +1,127 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.text-16 {
+    @include font-size(14px, 16px);
+}
+
+.text-18 {
+    @include font-size(14px, 18px);
+}
+
+.text-20 {
+    @include font-size(14px, 20px);
+}
+
+.text-22 {
+    @include font-size(14px, 22px);
+}
+
+.text-24 {
+    @include font-size(16px, 24px);
+}
+
+.text-26 {
+    @include font-size(16px, 26px);
+}
+
+.text-28 {
+    @include font-size(18px, 28px);
+}
+
+.text-30 {
+    @include font-size(18px, 30px);
+}
+
+.text-32 {
+    @include font-size(18px, 32px);
+}
+
+.text-34 {
+    @include font-size(18px, 34px);
+}
+
+.text-36 {
+    @include font-size(18px, 36px);
+}
+
+.text-38 {
+    @include font-size(18px, 38px);
+}
+
+.text-40 {
+    @include font-size(18px, 40px);
+}
+
+.text-42 {
+    @include font-size(18px, 42px);
+}
+
+.text-44 {
+    @include font-size(18px, 44px);
+}
+
+.text-46 {
+    @include font-size(18px, 46px);
+}
+
+.text-48 {
+    @include font-size(18px, 48px);
+}
+
+.text-50 {
+    @include font-size(18px, 50px);
+}
+
+.text-52 {
+    @include font-size(18px, 52px);
+}
+
+.text-54 {
+    @include font-size(18px, 54px);
+}
+
+.text-60 {
+    @include font-size(22px, 60px);
+}
+
+.text-80 {
+    @include font-size(22px, 80px);
+}
+
+.text-84 {
+    @include font-size(22px, 84px);
+}
+
+.text-96 {
+    @include font-size(22px, 96px);
+}
+
+.text-109 {
+    @include font-size(28px, 109px);
+}
+
+.text-110 {
+    @include font-size(28px, 110px);
+}
+
+.text-120 {
+    @include font-size(30px, 120px);
+}
+
+.text-140 {
+    @include font-size(36px, 140px);
+}

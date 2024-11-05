@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@import '_variables';
+@import 'utilities/_mixins';
+@import 'utilities/_functions';
+@import 'base/_globals';
+@import 'base/_reset';
+@import 'base/_typography';
+
+@tailwind components;
+@import 'components/_buttons';
+@import 'components/_inputs';
+
+@tailwind utilities;
+@import 'layout/_grid';
+@import 'layout/_spacing';
+@import 'themes/_theme-dark';
+@import 'themes/_theme-light';
+@import 'utilities/_breakpoints';

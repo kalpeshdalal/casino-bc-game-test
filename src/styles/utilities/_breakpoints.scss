@@ -1,0 +1,10 @@
+$font-lock-min: 320px !default;
+$font-lock-max: 1920px !default;
+$default-size: 16px !default;
+$calcDistance: 1600;
+
+@media (max-width: 768px) {
+    .responsive {
+        font-size: $default-size;
+    }
+}

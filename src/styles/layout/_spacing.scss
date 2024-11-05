@@ -1,0 +1,7 @@
+.section-padding {
+    padding-inline: clamp(14px, calc(14px + (204 * ((100vw - 320px) / 1520))), 220px);
+}
+
+.box-padding {
+    padding-inline: clamp(14px, calc(14px + (204 * ((100vw - 320px) / 1520))), 220px);
+}
