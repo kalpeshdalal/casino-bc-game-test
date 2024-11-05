@@ -21,11 +21,6 @@ function AppContainer() {
 	return (
 		<Router>
 			<Routes>
-				<Route
-					path="/"
-					element={<Navigate to="/dashboard" replace />}
-				/>
-
 				{routes.map((route, index) => {
 					return route.private ? (
 						<Route

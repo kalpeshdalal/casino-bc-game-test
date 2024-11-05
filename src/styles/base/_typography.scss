@@ -16,6 +16,17 @@ p {
     padding: 0;
 }
 
+.text-10 {
+    @include font-size(8px, 10px);
+}
+.text-12 {
+    @include font-size(10px, 12px);
+}
+
+.text-14 {
+    @include font-size(12px, 14px);
+}
+
 .text-16 {
     @include font-size(14px, 16px);
 }

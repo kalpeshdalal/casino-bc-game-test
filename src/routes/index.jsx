@@ -1,15 +1,16 @@
-import AuthLayout from "../layouts/authLayout";
-import MainLayout from "../layouts/mainLayout";
-import Dashboard from "../pages/dashboard";
-import Login from "../pages/login";
+import React from 'react';
+const AuthLayout = React.lazy(() => import("../layouts/authLayout"));
+const MainLayout = React.lazy(() => import("../layouts/mainLayout"));
+const HomePage = React.lazy(() => import("../pages/homePage"));
+const Login = React.lazy(() => import("../pages/login"));
 
 const routes = [
 	{
-		path: "/dashboard",
-		component: Dashboard,
-		title: "Dashboard",
+		path: "/",
+		component: HomePage,
+		title: "Home Page",
 		private: true,
-		layoutComponent: MainLayout,
+		// layoutComponent: MainLayout,
 	},
 	{
 		path: "/login",

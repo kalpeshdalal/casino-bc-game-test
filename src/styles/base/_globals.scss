@@ -6,7 +6,7 @@
     --bgGray: rgba(78, 79, 90, 1);
     --iconClr: rgba(179, 190, 193, 1);
     --borderStrokeClr: rgba(58, 65, 66, 1);
-    --redClr : rgba(252, 60, 60, 1);
+    --redClr: rgba(252, 60, 60, 1);
     --greenClr: rgba(14, 176, 94, 1);
     --whiteClr: rgba(255, 255, 255, 1);
 }
@@ -14,7 +14,7 @@
 
 
 body {
-    color: var( --whiteClr);
+    color: var(--whiteClr);
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -37,6 +37,22 @@ p {
     background: linear-gradient(70.53deg, #41434D 17.42%, #41434D 38.91%, rgba(65, 67, 77, 0) 66.85%);
 }
 
-.primary-button-gradient{
+.primary-button-gradient {
     background: linear-gradient(90deg, #24EE89 0%, #9FE871 100%);
+}
+
+.home-banner-gradient {
+    background: linear-gradient(261.29deg, rgba(33, 125, 80, 0.35) 2.06%, rgba(33, 125, 80, 0.3) 38.33%, rgba(47, 108, 80, 0) 95.35%);
+}
+
+.btn-inner-shadow {
+    box-shadow: 0px -1.12px 0px 0px rgba(29, 202, 106, 1) inset;
+}
+
+.btn-drop-shadow {
+    box-shadow: 0px 0px 6.72px 0px rgba(35, 238, 136, 0.3);
+}
+
+.banner-top-gradient {
+    background: linear-gradient(169.53deg, #41434D 47.42%, #41434D 26.91%, rgba(65, 67, 77, 0) 72.85%);
 }
