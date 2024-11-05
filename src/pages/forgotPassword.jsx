@@ -20,12 +20,12 @@ const ForgotPassword = () => {
             <h1 className='py-5 font-extrabold leading-[21px] text-white'>Reset Password</h1>
 
             <div className=' space-y-3'>
-                <InputComp type='text' placeholder="Email / Phone Number" value={email} />
+                <InputComp type='text' placeholder="Email / Phone Number" value={email} onChange={(e)=>setEMail(e.target.value)}  />
             </div>
 
 
 
-            <PrimaryButton buttonLabel="Reset Password" btnClass="w-full mt-6 mb-6" />
+            <PrimaryButton buttonLabel="Reset Password" btnClass="w-full mt-6 mb-6 h-10 text-xs" />
 
             {/* <div className='text-xs font-extrabold mt-3 flex justify-center items-center' onClick={handleBackToLogin}><img src={leftArrow}/> Back to Login</div> */}
             <Link to="/login" className='text-xs font-extrabold mt-3 flex justify-center items-center'>
