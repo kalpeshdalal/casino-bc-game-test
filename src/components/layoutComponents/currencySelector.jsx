@@ -25,7 +25,7 @@ const CurrencySelector = () => {
 
 	return (
 		<div className="flex items-center bg-whiteClr-30 pr-1 pl-2 py-1 rounded-lg shadow-md justify-between gap-1">
-			<button className=" min-w-[120px] flex justify-between items-center">
+			<div className=" min-w-[120px] flex justify-between items-center">
 				<div className="flex gap-2 items-center">
 					<img src={indiaFlag} alt="India Flag" className="w-6 h-4" />
 
@@ -34,14 +34,14 @@ const CurrencySelector = () => {
 					</span>
 				</div>
 
-				<div
+				<button
 					onClick={() => setIsOpen(!isOpen)}
 					className=" text-white"
 					style={{ minWidth: "auto", padding: 0 }}
 				>
 					<IoIosArrowDown />
-				</div>
-			</button>
+				</button>
+			</div>
 
 			<CurrencyDropdown
 				setIsOpen={setIsOpen}
