@@ -4,10 +4,10 @@ import AuthFooter from "../pages/authFooter";
 
 const AuthLayout = ({ children }) => {
 	return (
-		<div style={{height:"100vh", position:"relative"}}>
-			<header className="h-[273px] "><AuthHeader/></header>
+		<div style={{minHeight:'100vh', display:"flex", justifyContent:'space-between', flexDirection:'column'}}>
+			<header className="h-[253px] "><AuthHeader/></header>
 			<main>{children}</main>
-			<footer className="absolute bottom-0 " style={{position:"absolute" , bottom:"0px"}}><AuthFooter/></footer>
+			<footer className="" style={{padding:'16px 0'}}><AuthFooter/></footer>
 		</div>
 	);
 };

@@ -12,19 +12,19 @@ const AuthFooter = () => {
 
     const images = [google, telegram, metamask, waveIcon, whatsapp, line, steam];
     return (
-        <div className=''>
+        <div className='section-padding'>
             <div class="flex items-center mb-6">
                 <div class="flex-grow border-t border-borderStrokeClr w-full ml-6"></div>
                 <span class="px-4 text-sm text-nowrap text-iconClr">Log in directly with</span>
                 <div class="flex-grow border-t border-borderStrokeClr w-full mr-6"></div>
             </div>
-            <div className='flex space-x-2 mx-6 mb-5 justify-between'>
+            <div className='grid grid-cols-7 gap-2'>
                 {images.map((image, index) => (
                     <img
                         key={index} // Use a unique key for each image
                         src={image}
                         alt={`Icon ${index + 1}`} // Provide a meaningful alt attribute
-                        className='p-3 max-p-3 border rounded-lg border-borderStrokeClr'
+                        className='p-3 border rounded-lg border-borderStrokeClr'
                     />
                 ))}
             </div>
