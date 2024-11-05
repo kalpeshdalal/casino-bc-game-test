@@ -44,7 +44,7 @@ const InputComp= ({
                 onKeyDown={onKeyDown}
                 autoComplete="off"
                 className={`focus:outline-none border h-10 ${error ? 'border-red-600' : 'border-[#3A4142]'
-                    } bg-bgPrimaryClr rounded-xl py-2 px-3 ${type === "password" ? 'pr-10' : ''} ${inputClass}`}
+                    } bg-bgPrimaryClr rounded-lg py-2 px-3 ${type === "password" ? 'pr-10' : ''} ${inputClass}`}
                 onChange={onChange}
                 disabled={disabled}
             />

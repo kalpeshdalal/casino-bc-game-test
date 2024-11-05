@@ -17,7 +17,7 @@ const PrimaryButton = ({
                 <button
                     disabled={disabled || loading}
                     onClick={onClick}
-                    className={`primary-button-gradient btn-inner-shadow btn-drop-shadow min-w-max font-extrabold text-black text-10 rounded px-3 py-1 
+                    className={`primary-button-gradient btn-inner-shadow btn-drop-shadow min-w-max font-extrabold text-black text-10 rounded-lg px-3 py-1 
                         flex gap-2 items-center justify-center ${loading || disabled ? 'opacity-80 cursor-not-allowed' : ''} ${btnClass}`}
                 >
                     {loading ?
@@ -36,8 +36,8 @@ const PrimaryButton = ({
             <button
                 disabled={disabled || loading}
                 onClick={onClick}
-                className={`primary-button-gradient btn-inner-shadow btn-drop-shadow min-w-max font-extrabold text-black text-10 rounded px-3 py-1 
-                flex gap-2 items-center justify-center ${loading || disabled ? 'opacity-80 cursor-not-allowed' : ''} ${btnClass}`}
+                className={`primary-button-gradient btn-inner-shadow btn-drop-shadow min-w-max font-extrabold text-black text-10 rounded-lg px-3 py-1 
+                flex gap-2 items-center justify-center  ${loading || disabled ? 'opacity-80 cursor-not-allowed' : ''} ${btnClass}`}
             >
                 {loading ?
                     <CircularProgress size={20} color="" />

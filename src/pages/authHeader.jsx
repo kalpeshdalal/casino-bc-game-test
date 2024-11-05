@@ -4,11 +4,11 @@ import close from '../asset/close.svg'
 
 const AuthHeader = () => {
     return (
-        <div className='relative' >
+        <header className='relative' >
 
             <img src={posterImage} style={{ width: '100%' }} alt="Poster" />
 
-        </div>
+        </header>
     )
 }
 
