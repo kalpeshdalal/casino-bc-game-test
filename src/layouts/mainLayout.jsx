@@ -11,7 +11,7 @@ const MainLayout = ({ children }) => {
 			<header
 				className="section-padding"
 				style={{
-					position: "fixed",
+					position: "absolute",
 					top: 0,
 					zIndex: 100,
 					width: "100%",
