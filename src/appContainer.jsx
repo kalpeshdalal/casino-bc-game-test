@@ -43,13 +43,18 @@ function AppContainer() {
 							key={index}
 							path={route.path}
 							element={
-								route.layoutComponent
-									? route.layoutComponent
-									: route.component
+								route.layoutComponent ? (
+									<route.layoutComponent>
+										<route.component />
+									</route.layoutComponent>
+								) : (
+									<route.component />
+								)
 							}
 						/>
 					);
 				})}
+
 			</Routes>
 		</Router>
 	);
