@@ -59,17 +59,18 @@ p {
 
 /* Custom class to hide the scrollbar */
 .scrollbar-hide {
-	-ms-overflow-style: none;
-	scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-	display: none;
+    display: none;
 }
 
-.home-casino-card-bg{
-    background: linear-gradient(90.25deg, rgba(47, 108, 80, 0.5) 10.17%, rgba(47, 108, 80, 0.5) 20.13%, rgba(47, 108, 80, 0) 99.78%);
+.home-casino-card-bg {
+    background: linear-gradient(270.25deg, rgba(47, 108, 80, 0.5) 10.17%, rgba(47, 108, 80, 0.5) 20.13%, rgba(47, 108, 80, 0) 99.78%);
 }
-.home-slots-card-bg{
-    background: linear-gradient(90.25deg, rgba(196, 2, 0, 0.5) 20.13%, rgba(196, 2, 0, 0.5) 30.09%, rgba(196, 2, 0, 0) 99.78%);
+
+.home-slots-card-bg {
+    background: linear-gradient(270.25deg, rgba(196, 2, 0, 0.5) 20.13%, rgba(196, 2, 0, 0.5) 30.09%, rgba(196, 2, 0, 0) 99.78%);
 }

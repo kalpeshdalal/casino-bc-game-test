@@ -4,7 +4,7 @@ import RecentBigWins from './RecentBigWins';
 
 const HomePage = () => {
 	return (
-		<div className=''>
+		<div className='pb-20'>
 			<HomePageBanner />
 			<RecentBigWins />
 			<HomeCategories />
