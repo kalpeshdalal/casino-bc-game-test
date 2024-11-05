@@ -12,7 +12,7 @@ const routes = [
 		component: HomePage,
 		title: "Home Page",
 		private: true,
-		// layoutComponent: MainLayout,
+		layoutComponent: MainLayout,
 	},
 	{
 		path: "/login",
