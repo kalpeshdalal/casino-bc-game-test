@@ -1,8 +1,12 @@
 import React from "react";
-import AuthHeader from "../pages/authHeader";
-import AuthFooter from "../pages/authFooter";
+
+import { useLocation } from "react-router-dom";
+import AuthHeader from "../components/layoutComponents/authHeader";
+import AuthFooter from "../components/layoutComponents/authFooter";
 
 const AuthLayout = ({ children }) => {
+	let location = useLocation();
+
 	return (
 		<div
 			style={{
@@ -18,9 +22,13 @@ const AuthLayout = ({ children }) => {
 				<main>{children}</main>
 			</div>
 
-			<footer className="" style={{ padding: "16px 0 24px  0" }}>
-				<AuthFooter />
-			</footer>
+			{location?.pathname !== '/forgot-password' ?
+				<footer className="" style={{ padding: "16px 0 24px  0" }}>
+					<AuthFooter />
+				</footer>
+				:
+				""
+			}
 		</div>
 	);
 };

@@ -1,6 +1,5 @@
 import React from 'react'
-import posterImage from '../asset/authHeader.png'
-import close from '../asset/close.svg'
+import posterImage from '../../assets/background/authHeader.png'
 
 const AuthHeader = () => {
     return (

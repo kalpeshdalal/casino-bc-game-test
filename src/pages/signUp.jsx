@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import InputComp from "../components/InputComp";
-import PrimaryButton from "../components/PrimaryButton";
-import dropdown from "../asset/dropdown.svg";
-import checkImg from "../asset/checkImg.svg";
+import InputComp from "../components/common/InputComp";
+import PrimaryButton from "../components/common/PrimaryButton";
+import dropdown from "../assets/icons/dropdown.svg";
+import checkImg from "../assets/icons/checkImg.svg";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
@@ -31,16 +31,16 @@ const SignUp = () => {
 				Enter Referral / Promo Code <img src={dropdown} />
 			</div>
 			<div className="mt-3 ">
-				<div className="flex">
-					<img src={checkImg} style={{ marginRight: "15px" }} />
+				<div className="flex items-start gap-3">
+					<img src={checkImg} />
 					<div>
 						I agree to the{" "}
 						<span className="text-white">User Agreement</span> &
 						confirm I am at least 18 years old
 					</div>
 				</div>
-				<div className="flex mt-2">
-					<img src={checkImg} style={{ marginRight: "15px" }} />
+				<div className="flex mt-2 items-start gap-3">
+					<img src={checkImg} />
 					<div>
 						I agree to receive marketing promotions from BC.GAME.
 					</div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import InputComp from "../components/InputComp";
-import PrimaryButton from "../components/PrimaryButton";
-import leftArrow from "../asset/leftArrow.svg";
+import InputComp from "../components/common/InputComp";
+import PrimaryButton from "../components/common/PrimaryButton";
+import leftArrow from "../assets/icons/leftArrow.svg";
 import { Link, useNavigate } from "react-router-dom";
 
 const ForgotPassword = () => {

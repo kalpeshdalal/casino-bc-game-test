@@ -1,6 +1,5 @@
-import PrimaryButton from "../../components/PrimaryButton";
 import homebannerroulet from '../../assets/homebannerroulet.png';
-
+import PrimaryButton from "../../components/common/PrimaryButton"
 const HomePageBanner = () => {
 	return (
 		<div className="banner-top-gradient section-padding pt-14 pb-5">
